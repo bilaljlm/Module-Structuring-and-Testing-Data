@@ -1,14 +1,24 @@
 // Predict and explain first...
 
-// =============> write your prediction here
+// I predict that the multiplication will print 320 first, but the final message will show undefined because the
+// function does not return a value.
+ 
+
+// function multiply(a, b) {
+//   console.log(a * b);
+// }
+
+// console.log(`The result of multiplying 10 and 32 is ${multiply(10, 32)}`);
+// Explanation  
+
+// The function prints the result but doesn't return it. That's why the final message shows undefined instead of 320.
+// Finally, correct the code to fix the problem
+
 
 function multiply(a, b) {
-  console.log(a * b);
+  return a * b;
 }
-
 console.log(`The result of multiplying 10 and 32 is ${multiply(10, 32)}`);
 
-// =============> write your explanation here
 
-// Finally, correct the code to fix the problem
-//  =============> write your new code here
+// Out put The result of multiplying 10 and 32 is 320
